@@ -10,9 +10,15 @@
 		114B497A27EEF560003303E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B497927EEF560003303E9 /* AppDelegate.swift */; };
 		114B497C27EEF560003303E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B497B27EEF560003303E9 /* SceneDelegate.swift */; };
 		114B497E27EEF560003303E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B497D27EEF560003303E9 /* ViewController.swift */; };
-		114B498127EEF560003303E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114B497F27EEF560003303E9 /* Main.storyboard */; };
 		114B498327EEF564003303E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114B498227EEF564003303E9 /* Assets.xcassets */; };
 		114B498627EEF564003303E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114B498427EEF564003303E9 /* LaunchScreen.storyboard */; };
+		114B498E27EEFA3C003303E9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B498D27EEFA3C003303E9 /* CustomTextField.swift */; };
+		114B499127EEFADC003303E9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 114B499027EEFADC003303E9 /* SnapKit */; };
+		114B499427EEFAF7003303E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 114B499327EEFAF7003303E9 /* Alamofire */; };
+		114B499627EEFF3D003303E9 /* CocktailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B499527EEFF3D003303E9 /* CocktailModel.swift */; };
+		114B499827EF00F7003303E9 /* CocktailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B499727EF00F7003303E9 /* CocktailPresenter.swift */; };
+		114B499A27EF07CC003303E9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114B499927EF07CC003303E9 /* NetworkService.swift */; };
+		114B499F27EF6413003303E9 /* TTGTags in Frameworks */ = {isa = PBXBuildFile; productRef = 114B499E27EF6413003303E9 /* TTGTags */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,13 @@
 		114B497927EEF560003303E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		114B497B27EEF560003303E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		114B497D27EEF560003303E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		114B498027EEF560003303E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		114B498227EEF564003303E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114B498527EEF564003303E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114B498727EEF564003303E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114B498D27EEFA3C003303E9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		114B499527EEFF3D003303E9 /* CocktailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModel.swift; sourceTree = "<group>"; };
+		114B499727EF00F7003303E9 /* CocktailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailPresenter.swift; sourceTree = "<group>"; };
+		114B499927EF07CC003303E9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114B499F27EF6413003303E9 /* TTGTags in Frameworks */,
+				114B499127EEFADC003303E9 /* SnapKit in Frameworks */,
+				114B499427EEFAF7003303E9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +71,10 @@
 				114B497927EEF560003303E9 /* AppDelegate.swift */,
 				114B497B27EEF560003303E9 /* SceneDelegate.swift */,
 				114B497D27EEF560003303E9 /* ViewController.swift */,
-				114B497F27EEF560003303E9 /* Main.storyboard */,
+				114B499727EF00F7003303E9 /* CocktailPresenter.swift */,
+				114B499527EEFF3D003303E9 /* CocktailModel.swift */,
+				114B499927EF07CC003303E9 /* NetworkService.swift */,
+				114B498D27EEFA3C003303E9 /* CustomTextField.swift */,
 				114B498227EEF564003303E9 /* Assets.xcassets */,
 				114B498427EEF564003303E9 /* LaunchScreen.storyboard */,
 				114B498727EEF564003303E9 /* Info.plist */,
@@ -83,6 +98,11 @@
 			dependencies = (
 			);
 			name = TestTask;
+			packageProductDependencies = (
+				114B499027EEFADC003303E9 /* SnapKit */,
+				114B499327EEFAF7003303E9 /* Alamofire */,
+				114B499E27EF6413003303E9 /* TTGTags */,
+			);
 			productName = TestTask;
 			productReference = 114B497627EEF560003303E9 /* TestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,11 @@
 				Base,
 			);
 			mainGroup = 114B496D27EEF560003303E9;
+			packageReferences = (
+				114B498F27EEFADC003303E9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				114B499227EEFAF7003303E9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				114B499D27EF6413003303E9 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */,
+			);
 			productRefGroup = 114B497727EEF560003303E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +152,6 @@
 			files = (
 				114B498627EEF564003303E9 /* LaunchScreen.storyboard in Resources */,
 				114B498327EEF564003303E9 /* Assets.xcassets in Resources */,
-				114B498127EEF560003303E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114B498E27EEFA3C003303E9 /* CustomTextField.swift in Sources */,
+				114B499627EEFF3D003303E9 /* CocktailModel.swift in Sources */,
+				114B499A27EF07CC003303E9 /* NetworkService.swift in Sources */,
+				114B499827EF00F7003303E9 /* CocktailPresenter.swift in Sources */,
 				114B497E27EEF560003303E9 /* ViewController.swift in Sources */,
 				114B497A27EEF560003303E9 /* AppDelegate.swift in Sources */,
 				114B497C27EEF560003303E9 /* SceneDelegate.swift in Sources */,
@@ -147,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		114B497F27EEF560003303E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				114B498027EEF560003303E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		114B498427EEF564003303E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +311,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +338,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +378,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		114B498F27EEFADC003303E9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		114B499227EEFAF7003303E9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		114B499D27EF6413003303E9 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zekunyan/TTGTagCollectionView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		114B499027EEFADC003303E9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 114B498F27EEFADC003303E9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		114B499327EEFAF7003303E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 114B499227EEFAF7003303E9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		114B499E27EF6413003303E9 /* TTGTags */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 114B499D27EF6413003303E9 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */;
+			productName = TTGTags;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 114B496E27EEF560003303E9 /* Project object */;
 }
