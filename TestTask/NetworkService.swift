@@ -9,9 +9,6 @@ import Foundation
 import UIKit
 import Alamofire
 
-
-//var cat = Data()
-
 enum ApiError : Error {
     case noData
 }
@@ -24,10 +21,7 @@ class NetworkService {
                 completion(.failure(error))
                 return
             }
-            
-            
             guard let data = dataResponse.data else { return }
-            
             let decoder = JSONDecoder()
             do {
                 let objects = try decoder.decode(Coctail.self, from: data)
@@ -36,8 +30,6 @@ class NetworkService {
             } catch let jsonError {
                 print("Failed to decode JSON", jsonError)
             }
-           // let someString = String(data: data, encoding: .utf8)
-           // print(someString ?? "")
         }
     }
 }

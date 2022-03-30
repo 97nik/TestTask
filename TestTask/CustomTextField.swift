@@ -22,8 +22,6 @@ class CustomTextField: UITextField {
         self.backgroundColor = .white
         self.placeholder = "Coctail name"
         self.textAlignment = .center
-//        self.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-//        self.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.center
         self.layer.masksToBounds = false
         self.layer.shadowOffset = CGSize.zero
         self.layer.shadowRadius = 3.0
